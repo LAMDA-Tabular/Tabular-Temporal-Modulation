@@ -6,8 +6,6 @@ The experiments share the same setup with Cai & Ye (2025) [1].
 
 ## Setup
 
-Run:
-
 ```bash
 conda create --name benchmark python=3.10
 pip install -r requirements.txt
