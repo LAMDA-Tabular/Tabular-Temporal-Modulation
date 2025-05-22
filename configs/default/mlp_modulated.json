@@ -1,0 +1,18 @@
+{
+    "mlp_modulated": {
+        "model": {
+            "d_layers": [384, 384],
+            "dropout": 0.1,
+            "bn": true,
+            "transform": true,
+            "temporal_embeddings": {
+                "d_embedding": 8
+            }
+        },
+        "training": {
+            "lr": 0.0003,
+            "weight_decay": 1e-05
+        },
+        "general": {}
+    }
+}

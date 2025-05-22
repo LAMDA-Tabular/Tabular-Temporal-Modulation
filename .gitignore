@@ -1,0 +1,11 @@
+**/__pycache__/
+
+log/
+log_stat/
+results_model/
+
+cmd/*
+!cmd/cmd_*
+!cmd/gen_cmd.py
+
+visualization/output/
