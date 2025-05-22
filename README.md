@@ -4,6 +4,15 @@ This paper is submitted to **NeurIPS'25** (Submission **28660**), under review.
 
 The experiments share the same setup with Cai & Ye (2025) [1].
 
+## Setup
+
+Run:
+
+```bash
+conda create --name benchmark python=3.10
+pip install -r requirements.txt
+conda install faiss-gpu -c pytorch          # only for TabR
+```
 
 ## Usage Instructions
 
@@ -83,7 +92,7 @@ python train_model_classical.py --dataset $DATASET_NAME \
       LightGBM, 
       CatBoost, 
       RandomForest, 
-      SGD,           # Linear in paper.
+      SGD,           # Linear in paper
   )
   ```
 
