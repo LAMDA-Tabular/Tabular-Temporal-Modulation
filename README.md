@@ -1,6 +1,6 @@
 # Feature-aware Modulation for Learning from Temporal Tabular Data
 
-This paper is submitted to **NeurIPS'25** (Submission **28660**), under review. 
+The code repository for NeurIPS'25 paper "Feature-aware Modulation for Learning from Temporal Tabular Data".
 
 The experiments share the same setup with Cai & Ye (2025) [1].
 
